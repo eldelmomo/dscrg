@@ -6,7 +6,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Services - Monica</title>
+    <title>Security and Privacy in Cross-organizational Process Mining</title>
 
     <script>
         document.documentElement.classList.remove('no-js');
@@ -65,14 +65,14 @@
                 <nav class="s-header__nav">
 
                     <ul class="s-header__menu-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#members">Members</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#members">Members</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="index.html#publications">Publications</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Contact</a>
+                        <a href="index.html#contact" class="btn btn--primary s-header__contact-btn">Contact</a>
                     </div> <!-- s-header__contact -->
 
                 </nav> <!-- end s-header__nav -->
@@ -86,12 +86,19 @@
         <section id="content" class="s-content">
 
                <section class="s-pageheader pageheader">
+
+                <div class="blog-card__header">
+                    <div class="blog-card__cat-links">
+                        <a>Projects:</a>
+                    </div>
+                </div>
                     <div class="row">
                         <div class="column xl-12">
                             <h1 class="page-title">
                                 <span class="page-title__small-type text-pretitle">M.Sc. Hector Alan de la Fuente Anaya
-                                    <br><a>hector.delafuente@inaoep.mx</a> </span>
-                                Privacy Preserving Process mining 
+                                    <br>
+                                    <a href="mailto:hector.delafuente@inaoep.mx">hector.delafuente@inaoep.mx</a></span>
+                                    Security and Privacy in Cross-organizational Process Mining 
                             </h1>
                             
                         </div>
@@ -106,7 +113,7 @@
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
-                                This project aims to evaluate the practical feasibility of fully homomorphic encryption (FHE) schemes based on the Ring Learning With Errors (RLWE) problem in post-quantum security environments. Through implementation, simulation, and performance analysis, the project explores various aspects related to usability, robustness, and resistance against quantum-capable adversaries.
+                                This project aims to evaluate the practical feasibility of fully homomorphic encryption (FHE) schemes based on the Ring Learning With Errors (RLWE) problem in post-quantum security environments.
                             </p>
                         </div>                       
                     </div>  <!-- pageintro -->       
@@ -132,6 +139,7 @@
                         <p>
                             New cryptographic schemes that ensure privacy and confidentiality in event logs, semantically secure, with homomorphic properties, and resistant to quantum computing. The encrypted logs should be suitable for use in process mining algorithms as a service in the cloud.
                         </p>
+                       
                     </div>
                     <div class="grid-list-items__item list-items__item u-remove-bottom">
                         <div class="list-items__item-header">
@@ -140,10 +148,41 @@
                         <p> 
                             New quantum-safe adaptations of cross-organizational process mining algorithms, to be executed in the cloud, that work with homomorphically and PQC encrypted event logs.
                         </p>
+                       
                     </div>
                    
                 </div> <!--grid-list-items -->
 
+                <div class="row pagemedia">
+                    <d class="column xl-12">
+                        <figure class="page-media">                                
+                            <img src="images/spcpm/approach.svg" >
+                        
+                        </figure>
+                    </d>
+                </div> <!-- end pagemedia -->
+
+                <h2 class="u-add-bottom">Progress:</h2>
+
+                <div class="grid-list-items list-items">
+                    <div class="grid-list-items__item list-items__item u-remove-bottom">
+                        <div class="list-items__item-header">
+                            <h6 class="list-items__item-small-title">AlphaSec-PQC Algorithm: </h6>
+                        </div>
+                        <p>
+                            A lattice-based, post-quantum cryptographic algorithm designed to provide fully homomorphic encryption capabilities over encrypted data. It builds upon the Ring Learning With Errors (RLWE) problem, ensuring resistance against both classical and quantum adversaries. The scheme is optimized for secure computation in cloud and distributed environments, enabling operations on ciphertexts without decryption while maintaining strong semantic security and computational efficiency.                        </p>
+                            <a href="" class="btn btn--primary">Article</a>
+                        </div>
+                    <div class="grid-list-items__item list-items__item u-remove-bottom">
+                        <div class="list-items__item-header">
+                            <h6 class="list-items__item-small-title">Fitness-PQC Algorithm: </h6>
+                        </div>
+                        <p> 
+                            A post-quantum cryptographic algorithm designed for secure and efficient key generation and parameter tuning in lattice-based cryptosystems. It integrates evolutionary computation techniques—particularly genetic algorithms—to optimize cryptographic parameters such as error distributions and modulus selection in schemes based on the Ring Learning With Errors (RLWE) problem. The aim of Fitness-PQC is to enhance the balance between security, performance, and homomorphic capability.                        </p>
+                            <a href="" class="btn btn--primary">Article</a>
+                        </div>
+                   
+                </div> <!--grid-list-items -->
                
             </div> <!-- end grid-block-->
         </div> <!-- end pagemain -->
